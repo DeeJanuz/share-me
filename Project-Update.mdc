@@ -1,0 +1,10 @@
+---
+description: This rule will be run at the end of a session to update documentation
+globs: 
+alwaysApply: false
+---
+When called, you should review all the progress and enhancements in [progress.md](mdc:docs/progress.md) and do the following tasks:
+
+1: Create a new work log file in .docs/work_logs as a new file if the one for the dates in progress don't already exist
+2: Take all enhancements and changes from the progress file not currently documented in our [project-index.md](mdc:.docs/project-index.md) and document them.
+3: Run [git-commit.mdc](mdc:.cursor/rules/git-commit.mdc)
